@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(122, 122, 112), rgb(63, 59, 59));
+    color: yellow;
+    height: fit-content;
+}
+
+.logo{
+
+padding: 10px 0;
+}
+.content{
+    font-family: 'Potta One', cursive;
+}
+.container{
+    margin: auto;
+    width: 70vw;
+    padding: 30px 0;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    font-size: 18px;
+}
+.logo img{
+    width: 50px;
+
+}
+#myname{
+    display: flex;
+    justify-content: center;
+}
+
+.toolbar-item button{
+cursor: pointer !important;
+color: white !important;
+border: 1px solid white !important;
+border-radius: 15px !important;
+padding: 5px 14px !important;
+}
+
+#description{
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+h2{
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Potta One', cursive;
+    border-radius: em 5em 2em 0;
+    border: 3px solid;
+    border-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    
+}
